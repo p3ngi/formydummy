@@ -7,41 +7,55 @@
 
 		<style>
 
-		.aba {position: absolute;
-			right: 0px;
-			top: 0px;
-		}
-
 		.kari {position: absolute;
 				bottom: 50px;
-			}
+				border: 15px solid limegreen;}
 
 		.txt {font-family: Chiller;
 			font-size: 80px;
 			color: darkred;
 			position: absolute;
+			bottom: 30px;
+			right: 20px;
 		}
 
+		.aba {position: absolute;
+			right: 0px;
+			top: 0px;
+
+		}
+
+		/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+	.aba {position: absolute;
+			right: 0px;
+			top: 0px;
+			max-width: 100%;}
+
+/* For tablets: */      
+@media only screen and (min-width: 768px) {
+		.aba {position: absolute;
+			right: 0px;
+			top: 0px;
+			max-width: 100%;}
 	</style>
 </head>
 <body>
+
 
 <div class="aba">
 	<img src="aba.jpg" width="1550" height="728">
 </div>
 
-
+<a href="https://drive.google.com/drive/folders/1Bb7MKOuPBphWFc0zRaKnXIH7YRpVju9b?usp=sharing" target="_self">
 <div class="kari">
 	<img src="kari.jpg" width="300" height="350">
 </div>
+</a>
 
 <div class="txt">
 	HAPPY BIRTHDAY ZOE...
 </div>
-	
-<audio controls autoplay loop>
-  <source src="Abalin.m4a" type="audio/mp4">
-</audio>
-	
+
 </body>
 </html>
